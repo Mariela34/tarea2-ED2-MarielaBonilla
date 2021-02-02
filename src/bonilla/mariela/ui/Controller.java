@@ -11,14 +11,14 @@ public class Controller {
     public void ejecutarPrograma() throws IOException {
         int option = 5;
 
-        ui.imprimirMensaje("Bienvenido");
+        ui.imprimirMensaje("\nBienvenido");
 
         do {
             ui.mostrarMenu();
             ui.imprimirMensaje("Ingrese una opción");
             option = ui.leerNum();
             execAction(option);
-        }while (option!=4);
+        }while (option!=5);
     }
 
     public void execAction(int op) throws IOException {

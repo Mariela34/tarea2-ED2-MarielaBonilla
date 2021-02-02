@@ -10,6 +10,7 @@ public class Principal {
     private PrintStream out = new PrintStream(System.out);
 
     public void mostrarMenu(){
+        out.println("======= Menú de inicio =======");
         out.println("1.Ingresar dato a árbol");
         out.println("2.Imprimir en pre-orden");
         out.println("3.Imprimir post-orden");
