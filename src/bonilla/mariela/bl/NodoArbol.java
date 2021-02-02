@@ -1,4 +1,4 @@
-package bonilla.mariela;
+package bonilla.mariela.bl;
 
 public class NodoArbol {
     private NodoArbol left;

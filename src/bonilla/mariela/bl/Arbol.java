@@ -1,4 +1,4 @@
-package bonilla.mariela;
+package bonilla.mariela.bl;
 
 public class Arbol {
     private NodoArbol raiz;
@@ -37,18 +37,16 @@ public class Arbol {
     }
 
     public void orderPrints(int num){
-        //String mensaje = "";
-
         switch (num){
-            case 1://pre-order
+            case 2://pre-order
                 System.out.println("\n\nLista en pre-order: \n");
                 pre_order(this.raiz);
                 break;
-            case 2: //post-order
+            case 3: //post-order
                 System.out.println("\n\nLista en post-order: \n");
                 post_order(this.raiz);
                 break;
-            case 3://in-order
+            case 4://in-order
                 System.out.println("\n\nLista en in-order: \n");
                 in_order(this.raiz);
 
